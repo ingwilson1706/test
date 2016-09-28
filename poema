@@ -1,0 +1,201 @@
+#include<iostream.h>
+#include<windows.h>
+#include<math.h>
+
+#define gt(x,y) {COORD a;a.X=x;a.Y=y;SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),a);}
+
+int main ()
+{ 
+  float ao,a,b,c,re, rc, h, ae, ve, vp, ab, z, sp;
+  float pi=3.141592; 
+  double r, i;
+  system("cls");
+  system("color 9f");
+  gt(20,1);cout<<"                 POEMAS DEL ALMA";
+  gt(20,3);cout<<"Existen personas en nuestras vidas que nos hacen felices";
+  gt(20,4);cout<<"por la simple casualidad de haberse cruzado en nuestro ";
+  gt(20,5);cout<<"Algunas recorren el camino a nuestro lado,";
+  gt(20,6);cout<<"mas otras apenas vemos entre un paso y otro.";
+  gt(20,7);cout<<"A todas las llamamos amigos y hay muchas clases de ellos."; 
+  gt(20,9);cout<<"Tal vez cada hoja de un árbol caracteriza uno de nuestros.";
+  gt(20,10);cout<<"El primero que nace del brote es nuestro amigo ";
+  gt(20,11);cout<<"que nos muestra lo que es la vida.";
+  gt(20,12);cout<<"Después vienen los amigos hermanos,";
+  gt(20,13);cout<<"con quienes dividimos nuestro espacio para que puedan ";
+  gt(20,14);cout<<"Pasamos a conocer a toda la familia de hojas a quienes";
+  gt(20,15);cout<<"                    bien.";
+  gt(20,17);cout<<"Mas el destino nos presenta a otros amigos,";
+  gt(20,18);cout<<"los cuales no sabíamos que irían a cruzarse ";
+  gt(20,19);cout<<"A muchos de ellos los denominamos amigos del";
+  gt(20,20);cout<<"Son sinceros, son verdaderos.";
+  gt(20,22);cout<<"Saben cuando no estamos bien, saben lo que nos hace feliz.";
+  gt(20,23);cout<<"y entonces es llamado un amigo enamorado.";
+  gt(20,24);cout<<"Mas también hay de aquellos amigos por un tiempo,";
+  gt(20,25);cout<<"tal vez unas vacaciones o unos días o unas horas.";
+  gt(20,26);cout<<"durante el tiempo que estamos cerca.";      
+  
+  gt(20,30)system("pause");   
+  
+  system("cls");
+  
+  gt(50,1);cout<<"HOJA DE VIDA";
+  gt(10,3);cout<<"Nombres:";
+  gt(30,3);cout<<"Wilson Fernando";
+  gt(10,4);cout<<"Apellido:"; 
+  gt(30,4);cout<<"Osorio Capera";
+  gt(10,5);cout<<"Identificacion:";
+  gt(30,5);cout<<"1.110.473.899";
+  gt(10,6);cout<<"Fecha Nacimiento:";
+  gt(30,6);cout<<"17 de Junio 1988";
+  gt(10,7);cout<<"Estado Civil:";
+  gt(30,7);cout<<"Soltero";
+  gt(10,8);cout<<"Estudios:";
+  gt(30,8);cout<<"Tecnico";
+  gt(10,9);cout<<"Direccion:";
+  gt(30,9);cout<<"Calle 23 c #10 a 43";
+  gt(10,10);cout<<"Telefono:";
+  gt(30,10);cout<<"3015814111";
+  gt(10,11);cout<<"Movil:";
+  gt(30,11);cout<<"6559800";
+  gt(10,12);cout<<"Correo:";
+  gt(30,12);cout<<"ing_wilson@outlook.com";
+  gt(20,14);cout<<"Perfil Profesional:";
+  gt(10,16);cout<<"Joven, serio, dinamico ,con ganas de labrarse un futuro";
+  gt(10,17);cout<<"Buena presencia,Con experiencia en liderar equipos";
+  gt(10,18);cout<<"de trabajo, imaginación e inciativa para desarrollar ideas";
+  gt(10,19);cout<<"Gran capacidad de trabajo, integracion, dinamismo";
+  gt(10,21);cout<<"y habilidad para para enfrentar situaciones de desafio";
+  gt(10,22);cout<<"superacion, habilidad para conducir negocios y 6 idiomas.";
+  gt(10,23);cout<<"Emprendedor, con iniciativa y capacidades.";
+  gt(10,25);cout<<"Buena presencia, Con experiencia en liderar trabajos,";  
+  gt(10,26);cout<<"imaginación e inciciativa para desarrollar ideas nuevas";
+  gt(10,27);cout<<"y con facilidad para tomar decisiones";
+  gt(20,35);cout<<"CONTINUA";        
+  
+  gt(20,40)system("pause"); 
+  
+  system("cls");
+  
+  gt(50,1);cout<<"HOJA DE VIDA 2";
+  gt(42,5);cout<<"FORMACION ACADEMICA";
+  gt(20,10);cout<<"Técnicos:";
+  gt(50,8);cout<<"Politecnico Central";
+  gt(50,9);cout<<"Tecnico en sistemas";
+  gt(50,10);cout<<"Redes";  
+  gt(50,11);cout<<"2004"; 
+  gt(20,15);cout<<"Bachillerato:";
+  gt(50,14);cout<<"Jose celestino Mutis";
+  gt(50,15);cout<<"Academico";
+  gt(50,16);cout<<"Técnico";  
+  gt(50,17);cout<<"2002";
+  gt(20,19);cout<<"Universitarios:";
+  gt(50,20);cout<<"Universidad Cooperativa";
+  gt(50,21);cout<<"Pregrado";
+  gt(50,22);cout<<"Profesional";  
+  gt(50,23);cout<<"2016";
+  gt(42,26);cout<<"EXPERIENCIA LABORAL";
+  gt(20,30);cout<<"Empresa:";
+  gt(50,28);cout<<"Computeck";
+  gt(50,29);cout<<"Anos: 5";
+  gt(50,30);cout<<"Fecha de retiro: 2010";
+  gt(50,31);cout<<"Cargo: Tecnico en sistemas";  
+  gt(20,34);cout<<"Empresa:";
+  gt(50,33);cout<<"Compufast";
+  gt(50,34);cout<<"Anos: 1";
+  gt(50,35);cout<<"Fecha de retiro: 2013";
+  gt(50,36);cout<<"Cargo: Tecnico en sistemas";
+  
+  gt(20,40)system("pause"); 
+    
+  system("cls");
+  
+  gt(50,1);cout<<"HOJA DE VIDA 3";
+  gt(42,5);cout<<"REFERENCIAS FAMILIARES";
+  gt(10,10);cout<<"Referencia 1";
+  gt(10,12);cout<<"Nombres:    Fabian Araque";  
+  gt(10,13);cout<<"Ciudad:     Ibague";    
+  gt(10,14);cout<<"Cargo:      Abogado"; 
+  gt(10,15);cout<<"Telefono:   3168975214";
+  gt(10,17);cout<<"Referencia 2";
+  gt(10,19);cout<<"Nombres:    Sandra Anzola";  
+  gt(10,20);cout<<"Ciudad:     Bogota";    
+  gt(10,21);cout<<"Cargo:      Contadora"; 
+  gt(10,22);cout<<"Telefono:   3125041139";
+  gt(42,24);cout<<"ASPIRACION SALARIAL";
+  gt(42,26);cout<<"SALARIO: 3.000.000";
+  
+  gt(30,35);cout<<"FIRMA:  _____________________________";
+  gt(30,36);cout<<"CEDULA: C.C 1.110.473";
+  
+  gt(20,40)system("pause");
+  
+  system("cls");
+  
+  gt(1,1);cout<<"Area ortoedro";
+    gt(1,3);cout<<"ao=2(a.b+a.c+bc)";  
+    gt(1,5);cout<<"a=";cin>>a;
+    gt(1,6);cout<<"b=";cin>>b;    
+    gt(1,7);cout<<"c=";cin>>c; 
+    ao=2*(a*b+a*c+b*c);
+    gt(1,8);cout<<"ao="<<ao;
+
+  gt(20,40)system("pause"); 
+  
+    gt(30,1);cout<<"Area de una esfera";
+    gt(30,3);cout<<"ae=4*pi*(re*re)";  
+    gt(30,5);cout<<"re=";cin>>re;
+    ae=4*pi*(re*re);
+    gt(30,8);cout<<"ae="<<ae;
+
+  gt(20,40)system("pause"); 
+  
+    gt(1,10);cout<<"Volumen Esfera";
+    gt(1,11);cout<<"ve=(4/3)*pi*(re*re*re)";  
+    gt(1,12);cout<<"re=";cin>>re;
+    ve=(4/3)*pi*(re*re*re);
+    gt(1,13);cout<<"ve="<<ve;
+
+  gt(20,40)system("pause"); 
+  
+    gt(30,10);cout<<"Volumen de una piramide";
+    gt(30,11);cout<<"vp=(ab*h)/3";  
+    gt(30,12);cout<<"ab=";cin>>ab;
+    gt(30,13);cout<<"h=";cin>>h;
+    vp=(ab*h)/3;
+    gt(30,14);cout<<"vp="<<vp;
+
+  gt(20,40)system("pause"); 
+
+    gt(18,19);cout<<"z=(a^2 + b^3)^(1/4)";
+    gt(18,20);cout<<"a=";cin>>a;
+    gt(18,21);cout<<"b=";cin>>b;
+    z=pow(pow(a,2)+pow(b,3),0.25);
+    gt(18,22);cout<<"z="<<z;
+
+  gt(20,40)system("pause"); 
+   
+  system("cls");
+  
+  gt(1,1);cout<<"RAICES";
+    gt(1,3);cout<<"r=-b+raiz cuadrada(b2-4*a*c)/(2*a)";  
+    gt(1,5);cout<<"a=";cin>>a;
+    gt(1,6);cout<<"b=";cin>>b;    
+    r=-b+(sqrt((pow(b,2)+2-a)/(2*a)));
+    gt(1,7);cout<<"r="<<r;
+
+  gt(20,40)system("pause");
+  
+  gt(40,1);cout<<"RAICES SEGUNDO GRADO";
+    gt(40,3);cout<<"sp=(a+b+c)";
+    gt(40,4);cout<<"r=raiz(sp*(sp-a)*(sp-)*(sp-c))";  
+    gt(40,6);cout<<"a=";cin>>a;
+    gt(40,7);cout<<"b=";cin>>b;    
+    gt(40,8);cout<<"c=";cin>>c; 
+    sp=(a+b+c)/2;
+    r=sqrt(sp*(sp-a)*(sp-b)*(sp-c));
+    gt(40,8);cout<<"r="<<r;
+
+  gt(20,40)system("pause");
+  
+ 
+}
